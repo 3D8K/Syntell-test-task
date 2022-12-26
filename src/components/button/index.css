@@ -1,0 +1,25 @@
+.button {
+    display: flex;
+    padding: 12px 20px;
+    border-radius: 5px;
+    max-width: 100px;
+    max-height: 30px;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+    font-size: 17px;
+    color: #FFFFFF;
+    background: #118DA8;
+    margin: 20px;
+}
+
+
+.button:hover {
+    cursor: pointer;
+    background: #0A5464;
+    transition: 0.4s;
+}
+
+.button:active {
+    background: #88c6d3;
+}

@@ -1,0 +1,32 @@
+.resultWrapper {
+    position: absolute;
+    margin-top: 40px;
+    max-height: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.cluesListElement {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    width: 370px;
+    color: #FFFFFF;
+    background: #118DA8;
+}
+
+.cluesListElement img {
+    height: 20px;
+    width: 30px;
+    margin-right: 5px;
+}
+
+.cluesListElement:hover {
+    cursor: pointer;
+    background: #0A5464;
+    transition: 0.4s;
+}
+
+.cluesListElement:active {
+    background: #88c6d3;
+}
